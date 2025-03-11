@@ -9,6 +9,11 @@
 public class PracticaGitHub {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+          Calculadora calculadora= new Calculadora();
+        System.out.println(calculadora.dividir(1, 1));
+        System.out.println(calculadora.multiplicar(1, 1));
+        System.out.println(calculadora.sumar(1, 1));
+        System.out.println(calculadora.restar(1, 1));
+        System.out.println(calculadora.potencia(2, 4));
     }
 }
